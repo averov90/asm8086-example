@@ -15,7 +15,7 @@ Before starting each function, it is specified which registers are required for 
 
 **func_mul32x16** - function for multiplying a 32-bit number by a 16-bit number. The numbers for are fed through 3 registers (*AX* - the lower word of 1 number, *DX* - the upper word of 1 number, *BX* - the multiplier). The result is via *AX* and *DX*.
 
-**func_div32x16** - function for dividing a 32-bit number by a 16-bit number. Numbers for output are fed through 2 registers (*AX* - the lower word of 1 number, *DX* - the upper word of 1 number, *BX* - the multiplier) and the variable *func_div32x16_divider*. The result is in terms of *AX* and *DX* (integer part), *BX* - remainder.
+**func_div32x16** - function for dividing a 32-bit number by a 16-bit number. Numbers for output are fed through 2 registers (*AX* - the lower word of dividend number, *DX* - the upper word of dividend number) and the variable *func_div32x16_divider*. The result is in terms of *AX* and *DX* (integer part), *BX* - remainder.
 
 The main function of this example uses the above functions to calculate the number of permutations when *m* and *n* are passed to the program.
 
