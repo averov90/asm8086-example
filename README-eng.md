@@ -1,4 +1,4 @@
-# asm8086 IO and Ariphmetic example
+# asm8086 IO and Arithmetic example
 [![License](https://img.shields.io/badge/LICENSE-The%20Unlicense-green?style=flat-square)](/LICENSE)  [![Version](https://img.shields.io/badge/VERSION-STABLE-green?style=flat-square)](https://github.com/averov90/asm8086-io-ariphmetic/releases)
 ### :small_orange_diamond: [Russian version](/README.md)
 
